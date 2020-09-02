@@ -1,22 +1,38 @@
-
 ## Probability and Combinatorics
 
 
 
 ```python
-# import the necessary libraries
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-```
+### BEGIN SOLUTION
 
 
-```python
-# __SOLUTION__ 
+from test_scripts.test_class import Test
+test = Test()
+
 # import the necessary libraries
 import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt
+
+test.save()
+
+
+
+### END SOLUTION
+```
+
+
+```python
+# PUT ALL WORK FOR THE ABOVE QUESTION ABOVE THIS CELL# THIS UNALTERABLE CELL CONTAINS HIDDEN TESTS### BEGIN HIDDEN TESTS
+
+
+from test_scripts.test_class import Test
+test = Test()
+
+test.run_test()
+
+
+### END HIDDEN TESTS
 ```
 
 ### 1. Set Theory
@@ -39,13 +55,12 @@ Hint: draw a diagram!
 
 
 ```python
-ans1 = None
-ans2 = None
-```
+### BEGIN SOLUTION
 
 
-```python
-# __SOLUTION__ 
+from test_scripts.test_class import Test
+test = Test()
+
 ans1 = 0.28
 ans2 = 0.56
 
@@ -61,6 +76,26 @@ Question 2:
 P(A|B) = P(A and B)/P(B) = 0.28/0.5 = 0.56
 
 """
+
+test.save()
+
+
+
+### END SOLUTION
+```
+
+
+```python
+# PUT ALL WORK FOR THE ABOVE QUESTION ABOVE THIS CELL# THIS UNALTERABLE CELL CONTAINS HIDDEN TESTS### BEGIN HIDDEN TESTS
+
+
+from test_scripts.test_class import Test
+test = Test()
+
+test.run_test()
+
+
+### END HIDDEN TESTS
 ```
 
 ### 2. Card Combinatorics
@@ -77,13 +112,12 @@ Answer the questions below:
 
 
 ```python
-ans3 = None
-ans4 = None
-```
+### BEGIN SOLUTION
 
 
-```python
-# __SOLUTION__ 
+from test_scripts.test_class import Test
+test = Test()
+
 ans3 = 2/13
 ans4 = 2598960
 
@@ -99,9 +133,24 @@ Number of 5-card combinations = Number of ways to choose 5 from 52 = 52!/(5!*47!
 
 
 """
+
+test.save()
+
+
+
+### END SOLUTION
 ```
 
 
 ```python
+# PUT ALL WORK FOR THE ABOVE QUESTION ABOVE THIS CELL# THIS UNALTERABLE CELL CONTAINS HIDDEN TESTS### BEGIN HIDDEN TESTS
 
+
+from test_scripts.test_class import Test
+test = Test()
+
+test.run_test()
+
+
+### END HIDDEN TESTS
 ```
